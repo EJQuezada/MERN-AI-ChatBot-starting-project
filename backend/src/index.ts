@@ -11,4 +11,4 @@ app.get("/hello",(req, res, next) =>{
   return res.send("Hello");
 });
 
-app.listen(5000,()=>console.log("Server Open"));
+app.listen(5000, ()=>console.log("Server Open"));
