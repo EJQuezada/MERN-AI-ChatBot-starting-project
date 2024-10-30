@@ -8,7 +8,7 @@ const app = express();
 // DELETE -
 
 app.get("/hello",(req, res, next) =>{
-  return res.send("Hello")
+  return res.send("Hello");
 });
 
 app.listen(5000,()=>console.log("Server Open"));
