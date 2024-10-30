@@ -7,8 +7,8 @@ const app = express();
 // POST -
 // DELETE -
 
-app.get("/hello", (req, res, next) =>{
+app.get("/hello", (req, res, next) => {
   return res.send("Hello");
 });
 
-app.listen(5000, ()=>console.log("Server Open"));
+app.listen(5000, () => console.log("Server Open"));
