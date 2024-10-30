@@ -4,7 +4,8 @@ const app = express();
 // PUT -
 // POST -
 // DELETE -
-app.get("/", (req, res, next) => {
+app.get("/hello", (req, res, next) => {
+    return res.send("Hello");
 });
 app.listen(5000, () => console.log("Server Open"));
 //# sourceMappingURL=index.js.map
