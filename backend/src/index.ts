@@ -7,7 +7,7 @@ const app = express();
 // POST -
 // DELETE -
 
-app.get("/hello",(req, res, next) =>{
+app.get("/hello", (req, res, next) =>{
   return res.send("Hello");
 });
 
